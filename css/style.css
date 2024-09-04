@@ -1,0 +1,66 @@
+:root {
+  --main-text-color: rgba(0, 0, 0, 1);
+  --second-text-color: rgba(0, 0, 0, 0.8);
+  --main-background-color: rgba(255, 255, 255, 1);
+  --second-background-color: rgba(245, 245, 245, 1);
+  --accent-color: rgba(24, 160, 251, 1);
+}
+
+body {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: var(--second-text-color);
+}
+
+.logo:hover,
+.logo:active {
+  color: var(--accent-color);
+}
+
+.nav-list-item-link {
+  color: var(--accent-color);
+}
+
+.nav-list-item-link:hover,
+.nav-list-item-link:active {
+  color: var(--main-text-color);
+}
+
+.footer-list-options-item > a {
+  color: var(--second-text-color);
+}
+
+.footer-list-options-item > a:hover,
+.footer-list-options-item > a:active {
+  color: var(--accent-color);
+}
+
+.button {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+  font-size: 24px;
+  padding: 12px 24px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.button.primary {
+  color: var(--main-background-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  background-color: var(--main-background-color);
+  color: var(--accent-color);
+}
